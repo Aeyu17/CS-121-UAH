@@ -14,7 +14,7 @@ int main(){
 
     if (month > 12 || month < 1 || day > 31 || day < 1){ // invalid inputs
         cout << "Invalid input. Exiting...\n";
-        return 0;
+        return 1;
     }
 
     if (month == 1 && day == 16){
